@@ -1,0 +1,20 @@
+> Task :task02:compileJava UP-TO-DATE
+> Task :task02:processResources NO-SOURCE
+> Task :task02:classes UP-TO-DATE
+> Task :task02:Task02Main.main() FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':task02:Task02Main.main()'.
+> Build cancelled while executing task ':task02:Task02Main.main()'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 17s
+2 actionable tasks: 1 executed, 1 up-to-date

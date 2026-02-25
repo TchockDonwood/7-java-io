@@ -1,6 +1,8 @@
 package com.example.task02;
 
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Path;
+import java.util.Scanner;
 
 public class Task02Main {
     public static void main(String[] args) throws IOException {
@@ -9,5 +11,14 @@ public class Task02Main {
         // - направить стандартный вывод программы в файл output.test
         // - запустить программу
         // - и сравнить получившийся файл output.test с expected.test
+        int a = System.in.read();
+        while (a != -1) {
+            int b = System.in.read();
+            if (!(a == 13 & b == 10)) {
+                System.out.write(a);
+            }
+            a = b;
+        }
+        System.out.flush();
     }
 }
